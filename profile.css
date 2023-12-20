@@ -15,7 +15,7 @@ border: 2px solid var(--Gray-4);
 width: 80%;
 margin: 0 auto;
 font-family: 'Poppins', sans-serif;
-padding:3.1em 3em 8.9em 3.2em;
+padding:1.5em 3.125em 3.125em;
 }
 .heading{
   margin-bottom: 1.5em;
@@ -35,7 +35,7 @@ padding:3.1em 3em 8.9em 3.2em;
 input{
   width: 100%;
   padding: 12px;
-  margin: 0.8em 0 1.5em 0;
+  margin: 0.8em 0 2.5em 0;
   display: inline-block;
   border-radius: 8px;
   border: 1px solid var(--Gray-5);
