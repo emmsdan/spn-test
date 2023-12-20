@@ -1,0 +1,160 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COLORS */
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --green: rgba(134, 198, 160, 0.56);
+    --gray: #F2F2F2;
+    --darkBlue: #0C445B;
+    --darkGray: #333333;
+    --mediumGray: #E0E0E0;
+}
+main {
+    display: flex;
+}
+aside {
+    width: 20vw;
+    padding: 80px 12px 0 0;
+    background-color: var(--darkBlue);
+    height: 100vh;
+}
+#billing-form {
+    width: 70%;
+    height: 28rem;
+    margin: 5rem auto;
+    border: 1px solid var(--mediumGray);
+    border-radius: 12px;
+    padding: 2rem 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.billing-form-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.4rem;
+}
+.billing-title {
+    margin-bottom: 0.2rem;
+}
+.billing-sec-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.account-status {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.account-status-btn {
+    width: 5rem;
+    height: 1.5rem;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Poppins',sans-serif;
+}
+.input-wrapper {
+    position: relative;
+   
+}
+.account {
+    position: absolute;
+    top: 33%;
+    left: 1rem;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 0.5rem;
+}
+.text-icon img {
+    margin-top: 1.3rem;
+}
+.account-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--darkBlue);
+    margin: 1.2rem 0;
+}
+.account-input {
+    width: 13rem;
+    height: 4rem;
+    text-align: left;
+    padding: 2rem 0 0.7rem 2.6rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 2px 7px -1px rgb(200, 200, 200);
+}
+.account-main-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    width: 100%;
+}
+.account-sec-info {
+    width: 48%;
+}
+.account-sec-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0; 
+}
+.account-sec-info-titles-main {
+    font-size: 1rem;
+    color: var(--black);
+}
+.account-sec-info-titles-sec {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.account-sec-info-box-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    border: 1px solid var(--darkGray);
+    border-radius: 4px;
+    padding: 2rem;
+    width: 25rem;
+    height: 4rem;
+    cursor: pointer;
+}
+.account-sec-info-box-img {
+    height: 1.3rem;
+    margin-top: 0.4rem;   
+}
+.account-sec-info-box-text1 {
+    font-weight: 600;
+    color: var(--darkBlue);
+}
+.account-sec-info-box-text2 {
+    font-size: 0.8rem;
+    font-weight: 300; 
+    color: var(--darkGray);
+}
+.btn {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 4px;
+    margin-right: 0.7rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins',sans-serif;
+}
+.change-plans-btn {
+    background-color: var(--darkBlue);
+    color: var(--white);
+    font-size: 1rem; 
+    font-weight: 200;  
+}
+.cancel-plan-btn {
+    background-color: var(--white);
+    color: var(--darkBlue);
+    border: 2px solid var(--darkBlue);
+    font-size: 1rem;  
+    font-weight: 200; 
+}
