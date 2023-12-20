@@ -25,7 +25,7 @@ aside {
 }
 #billing-form {
     width: 70%;
-    height: 28rem;
+    height: 29rem;
     margin: 5rem auto;
     border: 1px solid var(--mediumGray);
     border-radius: 12px;
@@ -95,9 +95,6 @@ aside {
     gap: 1.2rem;
     width: 100%;
 }
-.account-sec-info {
-    width: 48%;
-}
 .account-sec-info-wrapper {
     display: flex;
     justify-content: space-between;
@@ -107,6 +104,7 @@ aside {
 .account-sec-info-titles-main {
     font-size: 1rem;
     color: var(--black);
+    margin-bottom: 0.6rem;
 }
 .account-sec-info-titles-sec {
     font-size: 1rem;
@@ -119,7 +117,7 @@ aside {
     border: 1px solid var(--darkGray);
     border-radius: 4px;
     padding: 2rem;
-    width: 25rem;
+    width: 27rem;
     height: 4rem;
     cursor: pointer;
 }
