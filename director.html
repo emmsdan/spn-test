@@ -1,16 +1,130 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="director.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="director.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <aside> sider bar here </aside>
-  <main> director here </main>
-</body>
+  <body>
+    <div class="container">
+      <aside>
+        <nav>
+          <div class="sidebar">
+            <h2>
+              <i class="fa-regular fa-bookmark" style="color: #ffffff"></i
+              >Profile
+            </h2>
+            <h2>
+              <i class="fa-solid fa-caret-up" style="color: #f4f5f6"></i>Company
+            </h2>
+            <h2>
+              <i class="fa-regular fa-bookmark" style="color: #ffffff"></i>Book
+              mark
+            </h2>
+            <h2>
+              <i class="fa-regular fa-bookmark" style="color: #ffffff"></i>Book
+              mark
+            </h2>
+            <h2>
+              <i class="fa-regular fa-bookmark" style="color: #ffffff"></i>Book
+              mark
+            </h2>
+            <h2>
+              <i class="fa-regular fa-bookmark" style="color: #ffffff"></i>Book
+              mark
+            </h2>
+            <h2>
+              <i class="fa-regular fa-bookmark" style="color: #ffffff"></i>Book
+              mark
+            </h2>
+            <h2>
+              <i class="fa-regular fa-bookmark" style="color: #ffffff"></i>Book
+              mark
+            </h2>
+            <h2>
+              <i class="fa-solid fa-plus" style="color: #ffffff"></i>Collabs
+            </h2>
+          </div>
+        </nav>
+      </aside>
+      <main>
+        <div class="content-wrapper">
+          <div class="text-area">
+            <div class="header-text">
+              <h1>Directors/teams details</h1>
+              <h4>Business details information are required here</h4>
+            </div>
+            <div class="align">
+              <div class="left">
+                <form>
+                  <label for="fname">First Name</label>
+                  <input
+                    type="text"
+                    placeholder="Alive business"
+                    name="fname"
+                    required
+                  />
+                  <label for="number">Phone number</label>
+                  <input
+                    type="number"
+                    placeholder="+53776875"
+                    name="number"
+                    required
+                  />
+                  <label for="nationality">Nationality</label>
+                  <input
+                    type="text"
+                    placeholder="e.g Australian"
+                    name="nationality"
+                    required
+                  />
+                </form>
+              </div>
+              <div class="right">
+                <form>
+                  <label for="lname">Last Name</label>
+                  <input
+                    type="text"
+                    placeholder="e.g Jackson"
+                    name="lname"
+                    required
+                  />
+                  <label for="dob">Date of birth</label>
+                  <input
+                    type="date"
+                    placeholder="date of birth"
+                    name="dob"
+                    required
+                  />
+                  <label for="identification">License</label>
+                  <select name="identification" id="identification">
+                    <option value="Driver license">Driver license</option>
+                    <option value="International Passport">
+                      International passport
+                    </option>
+                    <option value="National ID">National ID</option>
+                    <option value="Voters card">Voters card</option>
+                  </select>
+                </form>
+              </div>
+            </div>
+            <button>Save</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
