@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-container{
+    display: flex;
+}
+
+aside{
+    width: 20%;
+    background-color: #0C445B;
+}
+
+ul{
+    padding: 200px 10px 0 20px;
+}
+
+ul li{
+    list-style-type: none;   
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+ul li img{
+    margin-right: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    
+}
+
+ul li:nth-child(6) {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+}
+
+ul li:last-child {
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+main{
+    width: 80%;
+    padding: 50px;
+}
+
+main .form-container{
+    border: 2px solid #BDBDBD;
+    border-radius: 12px;
+    padding: 30px;
+}
+form h3{
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+form p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+form .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form .flex-box > div {
+    flex: 0 0 calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-box > div:nth-child(2n) {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    opacity: 0.8;
+    background: #F2F2F2;
+    box-shadow: 0px 1px 4px 0px rgba(255, 255, 255, 0.69);
+    margin-bottom: 20px;
+}
+
+.upload input{
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+
+.upload .file{
+    color: transparent;
+    outline: none;
+    background: F2F2F2;
+    outline: none;
+    border-radius: 8px;
+}
+
+::-webkit-file-upload-button{
+    padding: 12px;
+    background-color: #0C445B;
+    border: none;
+    width: 150px;
+    color: #828282;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+button{
+    background-color: #0C445B;
+    width: 243px;
+    padding: 12px;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    color: var(--Gray-6, #F2F2F2);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
